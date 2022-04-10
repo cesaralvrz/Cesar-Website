@@ -11,10 +11,6 @@ html {
 	// overflow-x: hidden;
 }
 
-ul li::before {
-  color: $primary;
-}
-
 body {
 	font-family: $font-primary;
 	background: $black;
@@ -222,6 +218,9 @@ h1, h2, h3, h4, h5,
 		display: block;
 		@include media-breakpoint-down(sm){
 			padding: 20px 0 0 0;
+		}
+		li::before {
+		  color: $primary;
 		}
 		li {
 			padding: 0;
