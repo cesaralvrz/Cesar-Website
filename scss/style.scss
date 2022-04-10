@@ -10,6 +10,11 @@ $primary: #2f89fc;
 html {
 	// overflow-x: hidden;
 }
+
+ul li::before {
+  color: $primary;
+}
+
 body {
 	font-family: $font-primary;
 	background: $black;
