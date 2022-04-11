@@ -1743,6 +1743,10 @@ textarea.form-control {
 	}
 }
 
+ul li span {
+  color: $primary;
+}
+
 .search-form {
 	background: lighten($black, 70%);
 	padding: 10px;
